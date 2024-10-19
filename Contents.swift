@@ -31,23 +31,4 @@ myObject.show()
 
 //singleton class with an object.
 
-import Foundation
-// Singleton class
-class SingletonClass{
 
-   // Creating object outside the class
-   static let myObject = SingletonClass()
-
-   // Creating a private initializer
-   private init(){}
-    
-   // Method
-   func show(){
-      print("Hello I am Singleton Class")
-   }
-}
-// Accessing the object
-let ob = SingletonClass.myObject
-
-// Accessing the method
-ob.show()
